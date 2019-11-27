@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "826218499230",
+    "firebase_url": "https://oligark-vale.firebaseio.com",
+    "project_id": "oligark-vale",
+    "storage_bucket": "oligark-vale.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826218499230:android:d6a33fb36f32df3e52ff8f",
+        "android_client_info": {
+          "package_name": "com.example.vale_yeni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826218499230-pjgubv6skldfcqb6ge356qa316q98kgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vale_yeni",
+            "certificate_hash": "235f288c96185ad2721d3083864b86b182d0e533"
+          }
+        },
+        {
+          "client_id": "826218499230-ln56o1sblqrq7k9h8o4a33qbs7kuorsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADarU3hEEdfmpB-a0d3XygofrcAq0QwrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826218499230-ln56o1sblqrq7k9h8o4a33qbs7kuorsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

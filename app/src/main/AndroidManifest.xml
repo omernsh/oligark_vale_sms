@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vale_yeni">
+
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".GirisYap">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".AnaSayfa"
+            android:parentActivityName=".AnaSayfa"
+            android:label="Yeni araç kayıt"/>
+
+
+
+
+        <activity android:name=".Yeni_Arac_Kayit"
+            android:theme="@style/Dark"
+            android:parentActivityName=".AnaSayfa"
+            android:label="Yeni araç kayıt"/>
+
+
+        <activity android:name=".TeslimSecenek"
+            android:theme="@style/Dark"
+            android:parentActivityName=".AnaSayfa"
+            android:label="Teslimat seçenekleri"/>
+
+
+
+
+        <activity android:name=".AracAyrinti"
+            android:theme="@style/Dark"
+            android:parentActivityName=".AnaSayfa"
+            android:label="Araç ayrıntısı"/>
+
+
+        <activity android:name=".KartTara"
+            android:theme="@style/Dark"
+            android:parentActivityName=".AnaSayfa"
+            android:label="Kartı tara"/>
+
+
+        <activity android:name=".KartTara_2"
+            android:theme="@style/Dark"
+            android:parentActivityName=".Yeni_Arac_Kayit"
+            android:label="Kartı tara"/>
+
+
+
+        <activity android:name=".AracTeslimSonuc"
+            android:theme="@style/Dark"
+            android:label=""
+            android:parentActivityName=".AnaSayfa"
+           />
+
+
+
+        <activity android:name=".HasarDurumu"
+            android:theme="@style/Dark"
+            android:label="Hasar durumu"
+            android:parentActivityName=".TeslimatıTamamla"
+            />
+
+
+
+        <activity android:name=".TeslimatBekleyenler"
+            android:theme="@style/Dark"
+            android:parentActivityName=".AnaSayfa"
+            android:label="Teslimat bekleyenler"
+            />
+
+
+        <activity android:name=".TeslimatıTamamla"
+            android:theme="@style/Dark"
+            android:parentActivityName=".TeslimatBekleyenler"
+            android:label="Teslimatı tamamla"
+            />
+
+
+
+        <activity android:name=".Kronometre"
+            android:theme="@style/Dark"
+            android:parentActivityName=".TeslimatBekleyenler"
+            android:label="Teslimatı tamamla"
+            />
+
+
+
+
+
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+
+
+    </application>
+
+</manifest>

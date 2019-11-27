@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Oligark vale</string>
+
+    <string-array name="para_birimleri">
+        <item>TL</item>
+        <item>Dolar</item>
+        <item>Euro</item>
+    </string-array>
+
+
+    <string-array name="park_alanları">
+        <item>Otopark</item>
+        <item>Alt Otopark</item>
+        <item>Üst Sağ</item>
+        <item>Üst Sol</item>
+
+    </string-array>
+
+    <string-array name="ekstra">
+        <item>VIP Şoför</item>
+        <item>Kart kaybı</item>
+        <item>Diğer</item>
+    </string-array>
+
+</resources>

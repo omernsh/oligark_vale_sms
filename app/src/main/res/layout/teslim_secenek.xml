@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/siyah">
+
+
+    <Button
+        android:id="@+id/kart_okut_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kartı okut"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/mavi_button_back"
+        android:layout_margin="10dp"
+        android:textColor="@color/beyaz"></Button>
+
+
+    <Button
+        android:id="@+id/kayıp_kart_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kayıp kart"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/turuncu_button_back"
+        android:layout_margin="10dp"
+        android:textColor="@color/beyaz"></Button>
+
+
+    <EditText
+        android:id="@+id/kod_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:textColor="@color/beyaz"
+        android:textColorHint="@color/beyaz"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittext_back"
+        android:ems="10"
+        android:visibility="invisible"
+        android:hint="Onay kodunu gir"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/kodu_elle_gir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        android:textColor="@color/beyaz"
+        android:background="@drawable/mavi_button_back"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Kodu kontrol et"
+        />
+
+</LinearLayout>

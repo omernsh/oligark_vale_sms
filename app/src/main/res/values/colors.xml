@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="siyah">#000000</color>
+    <color name="gri">#505050</color>
+    <color name="yeşil">#4EF733</color>
+    <color name="kırmızı">#FF2525</color>
+    <color name="beyaz">#FFFFFF</color>
+
+    <color name="mavi">#4A90E2</color>
+
+    <color name="sarı">#FFC107</color>
+
+    <color name="turuncu">#FF5722</color>
+
+
+
+
+
+</resources>

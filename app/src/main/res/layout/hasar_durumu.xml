@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/siyah"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/buton_back_1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasar durumu"
+                android:layout_weight="1"
+                android:textColor="@color/beyaz"
+                android:textStyle="bold"
+                android:textSize="22sp">
+
+            </TextView>
+
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/saglam_icon">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/hasarli_icon">
+
+            </ImageView>
+
+
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+
+
+
+            <Button
+                android:id="@+id/b_9"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="325dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+
+            <Button
+                android:id="@+id/b_10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="205dp"
+                android:layout_marginLeft="325dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+            <Button
+                android:id="@+id/b_11"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="325dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="160dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_7"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="140dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+
+            <Button
+                android:id="@+id/b_8"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="210dp"
+                android:background="@drawable/saglam_check_button"></Button>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="325dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/hasar_araba"></ImageView>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tamam"
+        android:layout_margin="10dp"
+        android:background="@drawable/mavi_button_back"
+        android:textColor="@color/beyaz">
+
+    </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/siyah"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GirisYap">
+
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/oligark_logo"></ImageView>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/beyaz"
+        android:layout_marginTop="20sp"
+
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="Giriş Yap"></TextView>
+
+
+
+
+    <EditText
+        android:id="@+id/tel_no_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:textColor="@color/beyaz"
+        android:textColorHint="@color/beyaz"
+        android:hint="Telefon numarası...(5XX)XXXXXXX"
+        android:maxLength="10"
+        android:padding="5dp"
+        android:background="@drawable/edittext_back"
+        android:inputType="phone"
+        />
+
+
+    <EditText
+        android:id="@+id/isim_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:textColor="@color/beyaz"
+        android:textColorHint="@color/beyaz"
+        android:hint="Vale adı soyadı"
+        android:padding="5dp"
+        android:background="@drawable/edittext_back"
+        android:inputType="textPersonName"
+        />
+
+
+
+    <Button
+        android:id="@+id/giris_yap_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+
+        android:textColor="@color/beyaz"
+        android:background="@drawable/mavi_button_back"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+
+        android:text="Onay kodu al"
+        />
+
+
+
+    <EditText
+        android:id="@+id/kod_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:textColor="@color/beyaz"
+        android:textColorHint="@color/beyaz"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittext_back"
+        android:ems="10"
+        android:visibility="invisible"
+        android:hint="Onay kodu"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/kodu_elle_gir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/beyaz"
+        android:background="@drawable/mavi_button_back"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+
+        android:text="Kodu manuel gir"
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

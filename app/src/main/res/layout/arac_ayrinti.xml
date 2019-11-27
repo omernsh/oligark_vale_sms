@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/siyah"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/edittext_back">
+
+        <TextView
+            android:id="@+id/kart_no"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="@color/beyaz"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="12"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/oval_icon">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plaka"
+            android:textColor="@color/beyaz"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/plaka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="34 AF 56"
+            android:textStyle="bold"
+            android:textColor="@color/beyaz"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ad-Soyad"
+            android:textColor="@color/beyaz"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/ad_soyad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ömer Nasuhi Aydemir"
+            android:textStyle="bold"
+            android:textColor="@color/beyaz"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefon no"
+            android:textColor="@color/beyaz"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/telefon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="531 836 77 81"
+            android:textStyle="bold"
+            android:textColor="@color/beyaz"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Park Alanı"
+            android:textColor="@color/beyaz"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/park_alanı"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loca"
+            android:textStyle="bold"
+            android:textColor="@color/beyaz"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarih-Saat"
+            android:textColor="@color/beyaz"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/tarih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18/09/2019"
+            android:textStyle="bold"
+            android:textColor="@color/beyaz"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"></TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vale"
+            android:textColor="@color/beyaz"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/vale_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/beyaz"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="2dp"></TextView>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="Teslim ediliyor olarak işaretle"
+        android:textAllCaps="false"
+        android:textColor="@color/beyaz"
+        android:textSize="20sp"
+        android:background="@drawable/mavi_button_back"></Button>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

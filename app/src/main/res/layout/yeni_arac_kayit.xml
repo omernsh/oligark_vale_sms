@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/siyah"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tarih: "
+                    android:textColor="@color/beyaz"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tarih"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18/03/2019"
+                    android:textStyle="bold"
+                    android:textColor="@color/beyaz"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vale: "
+                    android:textColor="@color/beyaz"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/vale_adi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textColor="@color/beyaz"
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/kart_no_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Kart no"
+                android:inputType="number"
+                android:textSize="20sp"
+                android:textColorHint="@color/beyaz"
+                android:textColor="@color/beyaz"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/turuncu_button_back">
+
+            </Button>
+
+
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/plaka_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Plaka"
+                android:inputType="textCapCharacters"
+                android:textSize="20sp"
+                android:textColorHint="@color/beyaz"
+                android:textColor="@color/beyaz"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/edittext_back">
+
+            </AutoCompleteTextView>
+
+
+
+            <EditText
+                android:id="@+id/ad_soyad_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Ad-Soyad"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:textColorHint="@color/beyaz"
+                android:textColor="@color/beyaz"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/edittext_back">
+
+            </EditText>
+
+
+
+            <EditText
+                android:id="@+id/telefon_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Tel.no(5XX XXX XX XX)"
+                android:maxLength="10"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:textColorHint="@color/beyaz"
+                android:textColor="@color/beyaz"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/edittext_back">
+
+            </EditText>
+
+
+            <Spinner
+                android:id="@+id/park_alanı_edittext"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:entries="@array/park_alanları"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittext_back"
+                android:textColor="#FFFFFF"/>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/buton_back_1">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hasar durumu"
+                        android:layout_weight="1"
+                        android:textColor="@color/beyaz"
+                        android:textStyle="bold"
+                        android:textSize="22sp">
+
+                    </TextView>
+
+
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/saglam_icon">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/hasarli_icon">
+
+                    </ImageView>
+
+
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+
+
+
+                    <Button
+                        android:id="@+id/b_9"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="415dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+
+                    <Button
+                        android:id="@+id/b_10"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="240dp"
+                        android:layout_marginLeft="415dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+                    <Button
+                        android:id="@+id/b_11"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="370dp"
+                        android:layout_marginLeft="415dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="145dp"
+                        android:layout_marginLeft="45dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginLeft="130dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginLeft="220dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginLeft="280dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="280dp"
+                        android:layout_marginLeft="35dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_6"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="290dp"
+                        android:layout_marginLeft="100dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_7"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="290dp"
+                        android:layout_marginLeft="190dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+
+                    <Button
+                        android:id="@+id/b_8"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="290dp"
+                        android:layout_marginLeft="270dp"
+                        android:background="@drawable/saglam_check_button"></Button>
+
+                    <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/hasar_araba"></ImageView>
+                </FrameLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/kaydet_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="KAYDET"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:textColor="@color/beyaz"
+                android:background="@drawable/mavi_button_back"></Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

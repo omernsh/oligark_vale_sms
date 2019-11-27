@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        app:cardBackgroundColor="@color/gri"
+        app:cardCornerRadius="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/kart_no"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="@color/beyaz"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/oval_icon">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teslimat bekliyor..."
+                    android:layout_gravity="center"
+                    android:textColor="@color/kırmızı"></TextView>
+
+                <TextView
+                    android:id="@+id/plaka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="34 AT 130"
+                    android:textColor="@color/beyaz"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+
+
+                <TextView
+                    android:id="@+id/ad_soyad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ömer Nasuhi Aydemir"
+                    android:textSize="18sp"
+                    android:textColor="@color/beyaz"
+                    android:textAlignment="center"
+
+                    android:layout_gravity="center"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/park_yeri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loca"
+                    android:textSize="18sp"
+                    android:textColor="@color/beyaz"
+                    android:textAlignment="center"
+
+                    android:layout_gravity="center"
+                    android:textStyle="normal">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
